@@ -44,7 +44,7 @@ export const providers: Record<
   },
   cohere: {
     name: "Cohere",
-    baseURL: "https://api.cohere.ai/v2",
+    baseURL: "https://api.cohere.ai/compatibility/v1",
     envKey: "COHERE_API_KEY",
   },
 };
