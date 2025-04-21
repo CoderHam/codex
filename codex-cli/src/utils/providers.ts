@@ -42,4 +42,9 @@ export const providers: Record<
     baseURL: "https://api.groq.com/openai/v1",
     envKey: "GROQ_API_KEY",
   },
+  cohere: {
+    name: "Cohere",
+    baseURL: "https://api.cohere.ai/v2",
+    envKey: "COHERE_API_KEY",
+  },
 };
